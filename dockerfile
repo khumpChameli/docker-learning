@@ -2,7 +2,7 @@ FROM ubuntu
 
 # Using CMD only. if we run without any arugument then it will print Hello... and if we run it argument then it will
 #replace complete command, we will also need to pass commmand and statement both from aurgument
-#CMD echo "Hello from CMD in shell form"
+CMD echo "Hello from CMD in shell form"
 #CMD ["echo", "Hello from CMD in executable form"]
 
 
